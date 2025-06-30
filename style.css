@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Quantico", sans-serif;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+gap: 30px;
+    list-style: none;
+    text-shadow: 0px 0px 10px  #00000080;
+
+}
+nav ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+color: white;
+
+}
+nav ul li a:hover{
+     color: #FF9C28;
+
+}
+header .container{
+     background: #272C3D;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 1273px;
+height: 70px;
+
+}
+header{
+    background-color: #272C3D;
+}
+input{
+    width: 241.8699951171875px;
+height: 30px;
+top: 20px;
+left: 790.53px;
+border-radius: 5px;
+background: #404864;
+
+}
+select{
+    width: 165.49000549316406px;
+height: 30px;
+top: 20px;
+left: 1070.59px;
+border-radius: 5px;
+background: #00000080;
+font-family: Quantico;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.admin{
+    display: flex;
+    gap: 30px ;
+}
+.hero{
+    background-image: url(./Bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex h2{
+color: white;
+text-align: center;
+
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 60px;
+}
+
+.black{
+    background: #000000;
+
+}
+.cola{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.jiji h2{
+ color: white;
+ text-align: center;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 50px;
+}
+.mohir{
+    background: #1B1E27;
+
+height: 400px;
+top: 999px;
+left: 47px;
+
+}
+.pepsi{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.pepsi p{
+    color: white;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+footer{
+    background: #272C3D;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer .too{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1000px;
+}
